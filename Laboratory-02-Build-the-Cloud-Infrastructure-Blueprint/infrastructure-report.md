@@ -19,21 +19,21 @@
 
 ## Kernel Version
 
-Kernel: 6.8.0-138-generic
+- **Kernel:** 6.8.0-138-generic
 
 ## CPU Model
 
-CPU Model: Intel Xeon E312xx (Sandy Bridge, IBRS update)     
-Number of CPU Cores     
-CPU Cores: 1     
+- **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)     
+- **Number of CPU Cores**     
+- **CPU Cores:** 1     
 
 ## Total RAM
 
-Total RAM: 1.9 GiB     
-Used: 455 MiB     
-Free: 791 MiB     
-Available: 1.4 GiB     
-Swap: 1.0 GiB     
+- **Total RAM:** 1.9 GiB     
+- **Used:** 455 MiB     
+- **Free:** 791 MiB     
+- **Available:** 1.4 GiB     
+- **Swap:** 1.0 GiB     
 
 ## Disk Capacity
 
@@ -57,8 +57,8 @@ Swap: 1.0 GiB
 
 ## Hostname
 
-Hostname: ubuntu
+- **Hostname:** ubuntu
 
 ## IP Address
 
-IP Address: 172.30.1.2, 172.17.0.1
+- **IP Address:** 172.30.1.2, 172.17.0.1
