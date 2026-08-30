@@ -2,7 +2,7 @@
 
 
 # About Me
-Hi I'm Ephralyn Danao 20 years old, from Manaoag Pangasinan and currently undertaking Information Technology in University of Eastern Pangasinan and I'm in my 4th year. So I'm interested in Web Developing and UX/UI Design because I know I am capable of that and I want to explore not only that.
+Hi I'm Ephralyn Danao 20 years old, from Manaoag Pangasinan and currently undertaking Information Technology in University of Eastern Pangasinan and I'm in my 4th year.
 
 This is an opportunity to start my journey as a beginner and may not have much knowledge but want to and will strive in it. I'm also discovering new challenges and knowledge to enhance and broaden my skills and to improve and do better.
 
