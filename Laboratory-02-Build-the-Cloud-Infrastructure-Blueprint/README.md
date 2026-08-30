@@ -1,5 +1,3 @@
-# Laboratory 02 – Build the Cloud Infrastructure Blueprint
-
 ## Mission Overview
 
 This laboratory activity focused on understanding and documenting the infrastructure required for cloud-based services. In this mission, the Linux environment provided through the KillerCoda Playground is investigated to identify its compute, storage, networking, and operating system resources.
