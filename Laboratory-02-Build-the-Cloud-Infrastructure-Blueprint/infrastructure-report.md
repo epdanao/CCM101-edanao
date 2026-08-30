@@ -45,7 +45,7 @@ Usage: 30%
 
 ##  Mounted File Systems 
 
-Filesystem	Size	Used	Avail	Use%	Mounted on
+Filesystem	Size	Used	Avail	Use%	Mounted on     
 tmpfs	191M	1016K	190M	1%	/run
 /dev/vda1	19G	5.4G	13G	30%	/
 tmpfs	952M	84K	952M	1%	/dev/shm
