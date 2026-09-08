@@ -47,9 +47,11 @@ The server is configured with one virtual CPU core using an Intel Xeon E312xx pr
 
 ### Screenshot
 
+<img width="1911" height="793" alt="killercoda-terminal_2" src="https://github.com/user-attachments/assets/b45b1237-1e06-4b53-a3ac-180714574b7b" />
+
+
 <img width="1363" height="401" alt="killercoda-terminal_2 1" src="https://github.com/user-attachments/assets/35cca1c7-678a-4cc3-abb3-5039154a4943" />
 
-<img width="1911" height="793" alt="killercoda-terminal_2" src="https://github.com/user-attachments/assets/b45b1237-1e06-4b53-a3ac-180714574b7b" />
 
 ## 3. Memory
 
