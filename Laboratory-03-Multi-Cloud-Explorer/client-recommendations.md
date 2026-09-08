@@ -41,10 +41,10 @@ The ability to combine computing, storage, containers, and AI services can also 
 
 ### Recommended Services
 
-#### Vertex AI** – for developing, training, evaluating, and deploying machine learning models.
-#### Compute Engine** – for running customized and resource-intensive computing workloads.
-#### Google Kubernetes Engine (GKE)** – for deploying and managing containerized AI applications.
-#### Cloud Storage** – for storing datasets, research files, and machine learning resources.
+#### Vertex AI – for developing, training, evaluating, and deploying machine learning models.
+#### Compute Engine – for running customized and resource-intensive computing workloads.
+#### Google Kubernetes Engine (GKE) – for deploying and managing containerized AI applications.
+#### Cloud Storage – for storing datasets, research files, and machine learning resources.
 
 
 ## Client D – Global E-Commerce Company
