@@ -6,13 +6,13 @@ I launched an Ubuntu Linux Playground using KillerCoda and used Linux commands t
 
 ## 1. Operating System
 
-**Command used:**
+#### Command used:
 
 ```bash
 cat /etc/os-release
 ```
 
-**Result:**
+#### Result:
 
 * Operating System: Ubuntu 24.04.4 LTS
 * Version: 24.04
@@ -33,7 +33,7 @@ The server is running Ubuntu 24.04.4 LTS, a Linux distribution commonly used for
 lscpu
 ```
 
-**Result:**
+#### Result:
 
 * Architecture: x86_64
 * CPU Model: Intel Xeon E312xx (Sandy Bridge, IBRS update)
@@ -55,13 +55,13 @@ The server is configured with one virtual CPU core using an Intel Xeon E312xx pr
 
 ## 3. Memory
 
-**Command used:**
+#### Command used:
 
 ```bash
 free -h
 ```
 
-**Result:**
+#### Result:
 
 * Total Memory: 1.9 GiB
 * Used Memory: 414 MiB
@@ -77,13 +77,13 @@ The Linux environment provides approximately 1.9 GiB of RAM, with additional swa
 
 ## 4. Disk Space
 
-**Command used:**
+#### Command used:
 
 ```bash
 df -h
 ```
 
-**Result:**
+#### Result:
 
 * Root Filesystem Size: 19 GiB
 * Used Space: 5.4 GiB
