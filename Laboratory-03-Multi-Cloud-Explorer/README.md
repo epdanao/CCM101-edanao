@@ -22,9 +22,8 @@ The server is running Ubuntu 24.04.4 LTS, a Linux distribution commonly used for
 
 ### Screenshot
 
-*Add your KillerCoda terminal screenshot here.*
+<img width="774" height="307" alt="killercoda-terminal_1" src="https://github.com/user-attachments/assets/797432be-117f-441d-a121-59ec563b5e1c" />
 
----
 
 ## 2. CPU Information
 
@@ -48,9 +47,9 @@ The server is configured with one virtual CPU core using an Intel Xeon E312xx pr
 
 ### Screenshot
 
-*Add your KillerCoda terminal screenshot here.*
+<img width="1363" height="401" alt="killercoda-terminal_2 1" src="https://github.com/user-attachments/assets/35cca1c7-678a-4cc3-abb3-5039154a4943" />
 
----
+<img width="1911" height="793" alt="killercoda-terminal_2" src="https://github.com/user-attachments/assets/b45b1237-1e06-4b53-a3ac-180714574b7b" />
 
 ## 3. Memory
 
@@ -72,9 +71,7 @@ The Linux environment provides approximately 1.9 GiB of RAM, with additional swa
 
 ### Screenshot
 
-*Add your KillerCoda terminal screenshot here.*
-
----
+<img width="775" height="87" alt="killercoda-terminal_3" src="https://github.com/user-attachments/assets/1cf51dd9-5c78-4f7c-9779-1e076f7d3f5d" />
 
 ## 4. Disk Space
 
@@ -95,9 +92,7 @@ The main filesystem provides 19 GiB of storage, with approximately 13 GiB curren
 
 ### Screenshot
 
-*Add your KillerCoda terminal screenshot here.*
-
----
+<img width="472" height="175" alt="killercoda-terminal_4" src="https://github.com/user-attachments/assets/11f90667-d1a2-4c9e-8e37-b1e703a25804" />
 
 # Cloud Migration Options
 
@@ -108,82 +103,3 @@ The Linux server environment could be hosted using virtual machine services from
 | AWS             | Amazon EC2             | Provides scalable virtual computing capacity for running Linux workloads |
 | Microsoft Azure | Azure Virtual Machines | Provides virtual machines for running Linux and other workloads          |
 | Google Cloud    | Compute Engine         | Provides virtual machines for applications and cloud workloads           |
-
-## AWS
-
-AWS provides a wide range of cloud services for computing, storage, networking, security, databases, and other workloads. Amazon EC2 is one of its compute services and provides resizable computing capacity for applications. Amazon S3 provides object storage for files and other data. AWS also provides networking and identity services as part of its cloud platform.
-
-**Source:**
-[AWS – About AWS](https://aws.amazon.com/about-aws/?utm_source=chatgpt.com)
-
-### AWS Services
-
-| Service    | Purpose                                   |
-| ---------- | ----------------------------------------- |
-| Amazon EC2 | Runs virtual machines and cloud workloads |
-| Amazon S3  | Stores objects and files                  |
-| Amazon VPC | Provides virtual networking               |
-| AWS IAM    | Controls access to AWS resources          |
-
-### Screenshot
-
-![AWS Homepage](screenshots/aws-homepage.png)
-
----
-
-## Microsoft Azure
-
-Microsoft Azure is Microsoft's cloud computing platform. It provides services for computing, storage, databases, networking, application development, security, and other cloud workloads. Azure also supports Linux virtual machines, allowing Linux distributions such as Ubuntu to run in the Azure environment.
-
-**Source:**
-[Microsoft Azure](https://azure.microsoft.com/en-us?utm_source=chatgpt.com)
-
-### Azure Services
-
-| Service                | Purpose                                 |
-| ---------------------- | --------------------------------------- |
-| Azure Virtual Machines | Runs Linux and Windows virtual machines |
-| Azure Blob Storage     | Stores cloud data and objects           |
-| Azure Virtual Network  | Provides private cloud networking       |
-| Microsoft Entra ID     | Manages identities and access           |
-
-### Screenshot
-
-![Azure Homepage](screenshots/azure-homepage.png)
-
----
-
-## Google Cloud
-
-Google Cloud provides cloud infrastructure and services that can be managed through the Google Cloud Console. The console allows users to create and manage virtual machines with Compute Engine, configure networking through VPC, and manage access using IAM permissions.
-
-**Source:**
-[Google Cloud Console](https://cloud.google.com/cloud-console?utm_source=chatgpt.com)
-
-### Google Cloud Services
-
-| Service        | Purpose                             |
-| -------------- | ----------------------------------- |
-| Compute Engine | Runs virtual machines and workloads |
-| Cloud Storage  | Stores files and objects            |
-| VPC            | Provides cloud networking           |
-| Cloud IAM      | Controls access to cloud resources  |
-
-### Screenshot
-
-![Google Cloud Homepage](screenshots/gcp-homepage.png)
-
----
-
-# Comparison
-
-| Feature           | AWS        | Microsoft Azure        | Google Cloud   |
-| ----------------- | ---------- | ---------------------- | -------------- |
-| Virtual Machines  | Amazon EC2 | Azure Virtual Machines | Compute Engine |
-| Storage           | Amazon S3  | Azure Blob Storage     | Cloud Storage  |
-| Networking        | Amazon VPC | Azure Virtual Network  | VPC            |
-| Identity & Access | AWS IAM    | Microsoft Entra ID     | Cloud IAM      |
-| Linux Support     | Yes        | Yes                    | Yes            |
-
-Based on the investigation, all three platforms can provide the computing, storage, networking, and access-management capabilities needed to host a Linux-based system. The final choice would depend on the client's budget, technical requirements, existing infrastructure, and preferred cloud ecosystem.
-
