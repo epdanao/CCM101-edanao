@@ -10,10 +10,10 @@ Using cloud services can also reduce the need for the company to purchase and ma
 
 ### Recommended Services
 
-* **Compute Engine** – for running backend servers and application workloads.
-* **Cloud Storage** – for storing application files, images, and backups.
-* **Cloud SQL** – for managing relational application databases.
-* **Cloud Load Balancing** – for distributing traffic across application resources.
+#### Compute Engine – for running backend servers and application workloads.
+#### Cloud Storage – for storing application files, images, and backups.
+#### Cloud SQL – for managing relational application databases.
+#### Cloud Load Balancing – for distributing traffic across application resources.
 
 ## Client B – University
 
@@ -25,10 +25,10 @@ Azure can be used to support different types of university workloads, including 
 
 ### Recommended Services
 
-* **Azure Virtual Machines** – for running Windows Server applications and other workloads.
-* **Microsoft Entra ID** – for managing user identities and access to cloud resources.
-* **Azure Virtual Network** – for creating and controlling the university's cloud network environment.
-* **Azure SQL Database** – for storing and managing application and institutional data.
+#### Azure Virtual Machines – for running Windows Server applications and other workloads.
+#### Microsoft Entra ID – for managing user identities and access to cloud resources.
+#### Azure Virtual Network – for creating and controlling the university's cloud network environment.
+#### Azure SQL Database – for storing and managing application and institutional data.
 
 
 ## Client C – AI Research Company
@@ -41,10 +41,10 @@ The ability to combine computing, storage, containers, and AI services can also 
 
 ### Recommended Services
 
-* **Vertex AI** – for developing, training, evaluating, and deploying machine learning models.
-* **Compute Engine** – for running customized and resource-intensive computing workloads.
-* **Google Kubernetes Engine (GKE)** – for deploying and managing containerized AI applications.
-* **Cloud Storage** – for storing datasets, research files, and machine learning resources.
+#### Vertex AI** – for developing, training, evaluating, and deploying machine learning models.
+#### Compute Engine** – for running customized and resource-intensive computing workloads.
+#### Google Kubernetes Engine (GKE)** – for deploying and managing containerized AI applications.
+#### Cloud Storage** – for storing datasets, research files, and machine learning resources.
 
 
 ## Client D – Global E-Commerce Company
@@ -57,11 +57,11 @@ Azure's scalable infrastructure can also help an e-commerce platform respond to 
 
 ### Recommended Services
 
-* **Azure Virtual Machines** – for hosting web servers and application workloads.
-* **Azure Load Balancer** – for distributing network traffic across available resources.
-* **Virtual Machine Scale Sets** – for managing groups of virtual machines and adjusting capacity according to demand.
-* **Azure SQL Database** – for managing customer, product, and transaction information.
-* **Azure Front Door** – for improving the delivery and routing of global web applications.
+#### Azure Virtual Machines – for hosting web servers and application workloads.
+#### Azure Load Balancer – for distributing network traffic across available resources.
+#### Virtual Machine Scale Sets – for managing groups of virtual machines and adjusting capacity according to demand.
+#### Azure SQL Database – for managing customer, product, and transaction information.
+#### Azure Front Door – for improving the delivery and routing of global web applications.
 
 
 # Multi-Cloud Decision Matrix
