@@ -69,5 +69,4 @@ Organizations can use Google Cloud for:
 ## Sources
 
 https://cloud.google.com/cloud-console
-* [Google Cloud Documentation](https://docs.cloud.google.com/)
 
