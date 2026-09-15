@@ -1,96 +1,109 @@
-# Laboratory 04 - The Cloud-Native Engineer
+# Laboratory 04 - Cloud-Native Engineer
 
 ## Mission Overview
 
-This laboratory activity introduced the concepts of cloud-native engineering, containerization, and Docker. The activity focused on understanding the differences between traditional Virtual Machines (VMs) and containers and demonstrating how Docker can be used to deploy a web server quickly. Using the KillerCoda Ubuntu environment, an Nginx web server was deployed, tested, stopped, and removed using Docker commands.
+Laboratory 04 focused on learning the basic concepts of cloud-native computing and containerization. In this activity, I compared traditional Virtual Machines (VMs) with containers and learned why containers are considered lightweight and faster to start. I also used the KillerCoda Ubuntu environment to practice Docker commands and deployed an Nginx web server as my first containerized application. Through the activity, I was able to experience how Docker can simplify the process of running and managing applications.
 
 ## Objectives
 
-At the end of this laboratory activity, the following objectives were completed:
+The main objectives of this laboratory activity were to:
 
-* Differentiate between Virtual Machines and containers.
-* Access a Docker-enabled Linux environment using KillerCoda.
-* Execute fundamental Docker CLI commands.
-* Pull and run an Nginx container.
-* Map a host port to a container port.
-* Test a containerized web server using `curl`.
-* Manage the lifecycle of a Docker container.
-* Document Docker operations using Markdown.
-* Maintain an organized GitHub Cloud Computing portfolio.
+* Understand the differences between Virtual Machines and containers.
+* Use a Docker-enabled Ubuntu environment through KillerCoda.
+* Verify that Docker was installed and running properly.
+* Practice basic Docker CLI commands.
+* Pull the official Nginx image from Docker Hub.
+* Run an Nginx web server inside a Docker container.
+* Use port mapping to access the Nginx server.
+* Test the containerized web server using `curl`.
+* Practice the basic Docker container lifecycle.
+* Document the activity and organize the outputs in my GitHub portfolio.
 
 ## Docker Commands Executed
 
-### Checkpoint 3 - Verify Docker
+### 1. Docker Environment Verification
+
+I first checked the Docker installation and environment using:
 
 ```bash
 docker --version
-```
-
-Displays the installed Docker version.
-
-```bash
 docker info
 ```
 
-Displays information about the Docker client and server environment.
+The `docker --version` command displayed the installed Docker version, while `docker info` showed details about the Docker server and environment. The KillerCoda environment was running Docker version **29.1.3** on **Ubuntu 24.04.4 LTS**.
 
-### Checkpoint 4 - Deploy Nginx
+### 2. Downloading the Nginx Image
+
+I downloaded the official Nginx image using:
 
 ```bash
 docker pull nginx
 ```
 
-Downloads the official Nginx image from Docker Hub.
+This command downloaded the Nginx image that was needed to create the web server container.
+
+### 3. Running the Nginx Container
+
+I created and started the Nginx container using:
 
 ```bash
 docker run -d --name nginx-server -p 8080:80 nginx
 ```
 
-Runs the Nginx container in detached mode and maps host port 8080 to container port 80.
+The container was named `nginx-server` and was run in detached mode. Port `8080` on the host was connected to port `80` inside the container.
+
+### 4. Testing the Nginx Server
+
+I tested the web server using:
 
 ```bash
 curl http://localhost:8080
 ```
 
-Sends an HTTP request to the Nginx server and verifies that it is working.
+The command successfully returned the Nginx welcome page, confirming that the containerized web server was running properly.
 
-### Checkpoint 5 - Container Lifecycle
+### 5. Managing the Container Lifecycle
+
+I checked the running container with:
 
 ```bash
 docker ps
 ```
 
-Lists currently running containers.
+I then stopped the Nginx container:
 
 ```bash
 docker stop nginx-server
 ```
 
-Stops the running Nginx container.
+To check the stopped container, I used:
 
 ```bash
 docker ps -a
 ```
 
-Displays all containers, including stopped containers.
+Finally, I removed the container:
 
 ```bash
 docker rm nginx-server
 ```
 
-Removes the stopped Nginx container.
-
-```bash
-docker ps -a
-```
-
-Verifies that the container has been completely removed.
+I used `docker ps -a` again to confirm that the container had been completely removed.
 
 ## Skills Learned
 
-Through this laboratory activity, I learned how containers differ from Virtual Machines and why containers are useful for cloud-native applications. I also learned how to use basic Docker CLI commands to pull images, create and run containers, test applications, stop containers, and remove containers. The activity also improved my understanding of port mapping and how a web service inside a container can be accessed from the host system. In addition, I gained experience in documenting technical procedures and maintaining evidence in a GitHub portfolio.
+This laboratory activity helped me develop basic skills in Docker and containerization. I learned how to verify a Docker environment, download images from Docker Hub, create and run containers, and manage the container lifecycle. I also learned how port mapping works and how `curl` can be used to check whether a web server is responding. Aside from the technical skills, I also practiced documenting commands, organizing screenshots, and maintaining my Cloud Computing portfolio using GitHub.
 
 ## Challenges Encountered
 
-One challenge was understanding the different stages of the Docker container lifecycle and remembering which commands should be used to check, stop, and remove a container. Another challenge was understanding how port mapping works, particularly the meaning of `-p 8080:80`. The KillerCoda environment made it possible to practice these commands without installing Docker directly on my personal computer. By following the commands step by step and checking the terminal output, I
+One of the challenges I encountered was understanding how the Docker port mapping `-p 8080:80` works. I initially needed to understand why port 8080 was used on the host while Nginx uses port 80 inside the container. After running the container and using `curl http://localhost:8080`, I was able to see that the host port was forwarding requests to the Nginx service inside the container.
 
+Another challenge was understanding the container lifecycle, particularly the difference between stopping and removing a container. By using `docker ps -a`, I was able to verify that a stopped container still existed before using `docker rm` to remove it completely.
+
+## Screenshots
+
+The following screenshots serve as evidence of the Docker operations completed during this laboratory activity:
+
+* `docker-version.png` - Docker installation and environment verification
+* `nginx-running.png` - Successful Nginx container deployment and `curl` test
+* `container-lifecycle.png` - Container listing, stopping, and removal
