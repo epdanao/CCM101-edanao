@@ -2,7 +2,7 @@
 
 ## Mission Overview
 
-Laboratory 04 focused on learning the basic concepts of cloud-native computing and containerization. In this activity, I compared traditional Virtual Machines (VMs) with containers and learned why containers are considered lightweight and faster to start. I also used the KillerCoda Ubuntu environment to practice Docker commands and deployed an Nginx web server as my first containerized application. Through the activity, I was able to experience how Docker can simplify the process of running and managing applications.
+In this laboratory activity, we focused on learning the basic concepts of cloud-native computing and containerization. I compared traditional Virtual Machines (VMs) with containers and learned why containers are considered lightweight and faster to start. I also used the KillerCoda Ubuntu environment to practice Docker commands and deployed an Nginx web server as my first containerized application. Through the activity, I was able to experience how Docker can simplify the process of running and managing applications.
 
 ## Objectives
 
@@ -92,15 +92,11 @@ I used `docker ps -a` again to confirm that the container had been completely re
 
 ## Skills Learned
 
-This laboratory activity helped me develop basic skills in Docker and containerization. I learned how to verify a Docker environment, download images from Docker Hub, create and run containers, and manage the container lifecycle. I also learned how port mapping works and how `curl` can be used to check whether a web server is responding. Aside from the technical skills, I also practiced documenting commands, organizing screenshots, and maintaining my Cloud Computing portfolio using GitHub.
+I learned how to check a Docker environment, download a Docker image, create and run a container, connect ports, and manage a container. I also learned how to use curl to test a web server and how to organize my laboratory files and screenshots in GitHub.
 
 ## Challenges Encountered
 
 One of the challenges I encountered was understanding how the Docker port mapping `-p 8080:80` works. I initially needed to understand why port 8080 was used on the host while Nginx uses port 80 inside the container. After running the container and using `curl http://localhost:8080`, I was able to see that the host port was forwarding requests to the Nginx service inside the container.
-
-Another challenge was understanding the container lifecycle, particularly the difference between stopping and removing a container. By using `docker ps -a`, I was able to verify that a stopped container still existed before using `docker rm` to remove it completely.
-
-## Screenshots
 
 The following screenshots serve as evidence of the Docker operations completed during this laboratory activity:
 
