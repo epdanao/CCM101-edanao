@@ -1,1 +1,11 @@
+# Mission Reflection
 
+Working through this lab gave me a much clearer picture of why object storage, not a traditional hard drive, is the backbone of large-scale cloud applications. A block storage hard drive is designed to be attached to one machine and treated like a single, structured disk — great for a database or an operating system, but not something that scales gracefully to millions of independent files. Object storage, by contrast, treats each photo as a self-contained object with its own metadata and unique identifier, living in a flat address space that can be distributed across many physical servers. That means storage capacity isn't capped by the size of one disk, and the system can keep growing horizontally as more users upload more images, without ever needing to resize or migrate a volume.
+
+Docker made the deployment side of this dramatically easier. Instead of manually installing MinIO, resolving dependencies, and configuring it by hand on the underlying OS, one `docker run` command pulled a pre-built image and had a fully working object storage server up in seconds. The `-p` flags handled port mapping and the `-e` flags injected configuration (the admin credentials) at startup, so the entire setup was reproducible and disposable — if something went wrong, I could just remove the container and run it again rather than debugging a broken install.
+
+A "bucket," in this context, is essentially a top-level container within the object storage service that groups related objects together, similar to a root folder, but without true nested folder logic underneath it. Buckets are also where access permissions and policies are usually configured.
+
+For how large enterprises avoid losing data if a physical server crashes, the answer is redundancy and replication: providers like AWS automatically store multiple copies of every object across different physical drives and, often, different data centers or availability zones, so the loss of a single server or even an entire facility doesn't mean the loss of the data.
+
+Overall, my confidence in the Linux command line keeps growing lab by lab. Commands that felt unfamiliar a few labs ago — checking running containers, reading logs, chaining flags together — are starting to feel like second nature, and I'm more comfortable troubleshooting when something doesn't behave as expected.
