@@ -2,7 +2,7 @@
 
 ## Mission Overview
 
-This lab simulates a real-world cloud engineering task: a client building a photo-sharing application needs somewhere to store millions of user-uploaded images. Since containers are ephemeral and cannot be relied on for persistent storage, this lab covers deploying an S3-compatible Object Storage server (MinIO) using Docker, creating a secure storage bucket, and uploading a test file to prove the setup works.
+This laboratory activity simulates a real-world cloud engineering task: a client building a photo-sharing application needs somewhere to store millions of user-uploaded images. Since containers are ephemeral and cannot be relied on for persistent storage, this lab covers deploying an S3-compatible Object Storage server (MinIO) using Docker, creating a secure storage bucket, and uploading a test file to prove the setup works.
 
 ## Objectives
 
