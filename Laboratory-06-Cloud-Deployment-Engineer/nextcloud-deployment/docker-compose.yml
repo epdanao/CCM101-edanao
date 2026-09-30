@@ -12,7 +12,7 @@ services:
   app:
     image: nextcloud
     ports:
-      - 8080:80
+      - "8080:80"
     environment:
       - MYSQL_PASSWORD=cloudnova_pass
       - MYSQL_DATABASE=nextcloud_db
