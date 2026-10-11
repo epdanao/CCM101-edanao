@@ -15,10 +15,12 @@ using logs and metrics.
 | Command | Purpose |
 |---|---|
 | `free -h` | Check memory usage |
-| `df -h` | Check disk storage |
+| `df -h /` | Check disk storage |
 | `top` | View processes and CPU load |
-| `docker run -d -p 8080:80 --name client-website nginx` | Deploy Nginx |
+| `docker run -d --name client-website -p 8080:80 nginx` | Deploy Nginx |
+| `docker ps` | Checks the status of running Docker containers. |
 | `curl http://localhost:8080` | Simulate user traffic |
+| `curl http://localhost:8080/hidden-admin-page` | Tests a nonexistent page and generates a 404 response. |
 | `docker logs client-website` | View application logs |
 | `docker stats` | View live container metrics |
 
