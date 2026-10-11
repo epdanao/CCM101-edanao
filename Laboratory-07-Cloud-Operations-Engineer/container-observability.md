@@ -64,15 +64,13 @@ The following metrics were recorded from the container monitoring results:
 
 - **Container Name:** `client-website`
 - **CPU Usage:** 0.00%
-- **Memory Usage:** 2.793 MiB
+- **Memory Usage:** 2.75 MiB
 - **Memory Limit:** 1.859 GiB
-- **Memory Usage Percentage:** 0.15%
-- **Network I/O:** 4.58 kB / 6.89 kB
-- **Block I/O:** 49.2 kB / 12.3 kB
+- **Memory Usage Percentage:** 0.14%
+- **Network I/O:** 3.91 kB / 5.299 kB
+- **Block I/O:** 0B / 12.3 kB
 - **PIDs:** 2
 
 ### Observation
 
-Based on the recorded metrics, the container was using 0.00% CPU and approximately 2.793 MiB of memory at the time of monitoring. Its resource consumption was low during the observation period. However, CPU and memory usage may increase when the server handles more requests or performs additional tasks.
-
-Overall, this activity helped me understand the importance of container observability. Monitoring logs, HTTP responses, and resource usage allows administrators to verify service availability, detect errors, and maintain the reliability of containerized applications.
+The container was using 0.00% CPU and approximately 2.75 MiB of memory at the time of monitoring. Its resource consumption was low during the observation period. However, CPU and memory usage may increase when the server handles more requests or performs additional tasks.
